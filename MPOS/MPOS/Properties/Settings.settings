@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MPOS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="API_BASEURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.110.145:3101/</Value>
+    </Setting>
+    <Setting Name="AUTO_PRINT" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MARGIN_LEFT_RIGHT_TOP_BOTTOM" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">50,50,50,50</Value>
+    </Setting>
+    <Setting Name="BRANCH" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="JWT" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IS_DEFAULT_CASH" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

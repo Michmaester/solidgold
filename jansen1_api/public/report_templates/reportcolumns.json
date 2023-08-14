@@ -1,0 +1,188 @@
+[
+    {
+        "module": "sales-by-customer-summary",
+        "query_func" : "SalesByCustomerSummary",
+        "columns": []
+    },
+    {
+        "module": "sales-by-item-group-summary",
+        "query_func" : "SalesByItemGroupSummary",
+        "columns": []
+    },
+    {
+        "module": "sales-by-item-group-detailed",
+        "query_func" : "SalesByItemGroupSummaryDetailed",
+        "columns": []
+
+    },
+    {
+        "module": "sales-with-discount",
+        "query_func" : "SalesWithDiscount",
+        "columns": []
+
+    },
+    {
+        "module": "sales-account-receivables",
+        "query_func" : "SalesAccountReceivables",
+        "columns": []
+
+    },
+    {
+        "module": "profit-and-loss-summary",
+        "query_func" : "ProfitAndLossSummary",
+        "columns": []
+
+
+    },
+    {
+        "module": "profit-and-loss-detailed",
+        "query_func" : "ProfitAndLossDetailed",
+        "columns": []
+    },
+
+    {
+        "module": "charge-account-report",
+        "query_func" : "ChargeAccountReport",
+        "columns": []
+    },
+    {
+        "module": "charge-payment-report",
+        "query_func" : "ChargePaymentReport",
+        "columns": []
+    },
+    {
+        "module": "sales-return-report",
+        "query_func" : "SalesReturnReport",
+        "columns": []
+    },
+
+
+    
+
+
+
+
+
+
+
+    {
+        "module": "purchase-order-by-supplier-summary",
+        "query_func" : "PurchaseOrderBySupplierSummary",
+        "columns": []
+
+    },
+    {
+        "module": "purchase-order-by-supplier-detailed-summary",
+        "query_func" : "PurchaseOrderBySupplierDetailedSummary",
+        "columns": []
+
+    },
+    {
+        "module": "purchase-order-by-summary",
+        "query_func" : "PurchaseOrderBySummary",
+        "columns": []
+
+    },
+    {
+        "module": "purchase-order-by-item-detailed-summary",
+        "query_func" : "PurchaseOrderByItemDetailedSummary",
+        "columns": []
+
+      
+
+    },
+    {
+        "module": "open-purchase-order-summary",
+        "query_func" : "OpenPurchaseOrderSummary",
+        "columns": []
+
+    },
+    {
+        "module": "purchase-payables-summary",
+        "query_func" : "PurchasePayablesSummary",
+        "columns": []
+
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "module": "low-quantity-items",
+        "query_func" : "LowQuantityItems",
+        "columns": []
+
+
+
+    },
+    {
+        "module": "total-warehouse-stocks-summary",
+        "query_func" : "TotalWarehouseStocksSummary",
+        "columns": []
+    },
+    {
+        "module": "inventory-detailed-summary",
+        "query_func" : "InventoryDetailedSummary",
+        "columns": []
+
+    },
+    {
+        "module": "inventory-cost-vs-selling",
+        "query_func" : "InventoryCostVsSelling",
+        "columns": []
+
+    },
+    {
+        "module": "inventory-count-summary",
+        "query_func" : "InventoryCountSummary",
+        "columns": []
+    },
+    {
+        "module": "stock-transfer",
+        "query_func" : "StockTransfer",
+        "columns": []
+
+    },
+    {
+        "module": "stock-transfer-outgoing",
+        "query_func" : "StockTransferOutgoing",
+        "columns": []
+
+    },
+    {
+        "module": "stock-outs",
+        "query_func" : "StockOuts",
+        "columns": []
+
+    },
+    {
+        "module": "stock-ins",
+        "query_func" : "StockIns",
+        "columns": []
+
+    },
+
+    
+
+
+    {
+        "module": "user-logs",
+        "query_func" : "UserLogs",
+        "columns": []
+    }
+
+
+  ]

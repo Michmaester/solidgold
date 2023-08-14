@@ -1,0 +1,185 @@
+/* this is the print stylesheet */
+
+@media print {
+
+	body {
+	
+		margin: 0px;
+		color: #000;
+		background-color: #fff;
+		overflow-y: auto;
+		width: 100vw;
+	}
+
+	/* body {
+		margin: 0px;
+		color: #000;
+		background-color: #fff;
+		overflow-y: auto;
+		width: 100vw;
+	}
+
+	.column.is-10 {
+		width: 100vw;
+	}
+
+	.header-wrapper {
+		display: none;
+	}
+
+	.sidebar-wrapper {
+		display: none;
+	}
+
+	.page-subheader {
+		display: none;
+	}
+
+	#report-sidebar-wrapper {
+		display: none;
+	} */
+
+	/* #content-header{
+		display: none!important;
+	}
+
+	#rept-tpl-list-wrapper{
+		display:none;
+	} */
+
+	/* #report-doc-wrapper {
+
+		height: auto !important;
+		overflow-y: auto;
+	}
+
+	#report-doc-wrapper iframe {
+		box-shadow: none;
+	} */
+
+	::-webkit-scrollbar {
+		display: none;
+	}
+
+
+	.sidebar-wrapper {
+		display: none;
+	}
+
+	#report-sidebar-wrapper {
+		display: none;
+	}
+
+
+	#report-doc-wrapper {
+		height: auto !important;
+		overflow-y: visible;
+	}
+
+	#report-doc-wrapper iframe {
+		box-shadow: none;
+		overflow-y: visible;
+		height: 100vh;
+	} 
+
+	.column.is-10 {
+		width: 100vw;
+	}
+
+
+
+
+	/* .vm--overlay{
+		display:none;
+	}
+
+	.vm--overlay{
+		display: none;
+	}
+
+	.has-background-pageheader{
+		display:none;
+	}
+
+	.modalshow-btn{
+		display:none;
+	} */
+
+	.vm--modal{
+		
+		display:none !important;
+		/* overflow-y: visible !important;
+		height:2000px; */
+	}
+
+	.page-subheader {
+		display:none !important;
+	}
+
+	.header-wrapper {
+		display:none !important;
+	}
+
+	.modalshow-btn{
+		display:none !important;
+	} 
+
+	.print-hide{
+		display: none !important;
+	}
+
+
+	
+	#print-content {
+		/* position:absolute;
+		left:0;
+		top:0; */
+		visibility:visible !important;
+		overflow-y: visible !important;
+	}
+
+	.modal {
+		visibility:visible !important;
+		overflow-y: visible !important;
+	}
+
+	.modal-content {
+		visibility:visible !important;
+		overflow-y: visible !important;
+	}
+
+	.modal-background {
+		visibility:visible !important;
+		overflow: visible!important;
+	}
+
+	#salesfront-header{
+		display:none !important;
+	}
+
+	#salesfront-left-content{
+		display:none !important;
+	}
+
+	#salesfront-printable{
+		width:100%!important;
+		margin:0px!important;
+	}
+
+	.printing-hide{
+		display:none !important;
+	}
+
+	
+
+	.sidebar-wrapper {
+		visibility:visible !important;
+	}
+
+	
+}
+
+@page {
+	size: auto;
+	margin: 8pt;
+}

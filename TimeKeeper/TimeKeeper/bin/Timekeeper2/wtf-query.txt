@@ -1,0 +1,47 @@
+
+1. Employees==============
+
+
+SET IDENTITY_INSERT Employees ON
+
+INSERT INTO Employees (Id) VALUES (1)
+INSERT INTO Employees (Id) VALUES (2)
+INSERT INTO Employees (Id) VALUES (3)
+
+SET IDENTITY_INSERT Employees OFF
+
+
+
+
+
+2. =================
+
+SET IDENTITY_INSERT EmploymentInfoes ON
+
+INSERT INTO EmploymentInfoes (Id) VALUES (1)
+
+SET IDENTITY_INSERT EmploymentInfoes OFF
+
+
+
+3. ===============
+
+make personsal infoes borth of date in excel ass TEXT foramt is YYYY-MM-DD (2020-12-01)
+
+
+
+SET IDENTITY_INSERT PersonalInfoes ON
+
+INSERT INTO PersonalInfoes (Id) VALUES (1)
+
+SET IDENTITY_INSERT PersonalInfoes OFF
+
+
+
+4.============================
+
+SET IDENTITY_INSERT TimeKeepingInfoes ON
+
+INSERT INTO TimeKeepingInfoes (Id) VALUES (1)
+
+SET IDENTITY_INSERT TimeKeepingInfoes OFF

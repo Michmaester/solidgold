@@ -1,0 +1,58 @@
+<div class="text-sm">
+
+    <div class="flex w-full my-4">
+        <div class="w-1/2">
+            <p>Company : {{ data.meta.company }}</p>
+            <p>Branch : {{ data.meta.branch }}</p>
+            <p>Address : {{ data.meta.address }}</p>
+        </div>
+
+        <div class="w-1/2">
+            <p>Report Title : {{ data.meta.title }}</p>
+            <p>Date period : {{ data.meta.date_filter }}</p>
+            <p>Generated : {{ data.meta.generation_date }}</p>
+        </div>
+
+    </div>
+
+
+    <table class="table-auto w-full mt-6">
+        <thead>
+            <tr class="bg-gray-200">
+                {{#each data.columns as |column key| }}
+                <th class="border px-4 py-2 text-left">
+                    {{ column.label }}
+                </th>
+                {{/each}}
+            </tr>
+        </thead>
+        <tbody>
+            {{#each data.datas as |item itemkey| }}
+            <tr>
+                {{#each ../data.columns as |column colkey| }}
+                <td class="border-b px-4 py-2">
+                    {{lookup item column.field}}
+                </td>
+                {{/each}}
+
+            </tr>
+            {{/each}}
+        </tbody>
+        <tfoot>
+            <tr>
+                {{#each data.columns }}
+                <th class="px-4 py-2 text-left">
+                    {{#if this.totals}}
+                    <span>Total {{ this.label }} : </span>{{ this.total }}
+                    {{/if}}
+                </th>
+                {{/each}}
+
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+
+</div>

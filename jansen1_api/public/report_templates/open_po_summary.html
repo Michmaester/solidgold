@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title></title>
+    <style type="text/css" rel="stylesheet" media="all">
+    /* Base ------------------------------ */
+    
+
+    html {
+      -webkit-print-color-adjust: exact !important;
+    }
+    body {
+      width: 100% !important;
+      height: 100%;
+      margin: 0;
+      border:0px!important;
+      -webkit-text-size-adjust: none;
+      font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    
+    
+    td {
+      word-break: break-word;
+    }
+
+    table{
+      border:0px!important;
+    }
+
+    /* Type ------------------------------ */
+    
+    h1 {
+      margin-top: 0;
+      color: #333333;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    h2 {
+      margin-top: 0;
+      color: #333333;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    h3 {
+      margin-top: 0;
+      color: #333333;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    td,
+    th {
+      font-size: 12px;
+      /* padding:3px; */
+    }
+    
+    p,
+    ul,
+    ol,
+    blockquote {
+      margin: .4em 0 1.1875em;
+      font-size: 16px;
+      line-height: 1.625;
+    }
+    
+    p.sub {
+      font-size: 13px;
+    }
+    /* Utilities ------------------------------ */
+    
+    .align-right {
+      text-align: right;
+    }
+    
+    .align-left {
+      text-align: left;
+    }
+    
+    .align-center {
+      text-align: center;
+    }
+
+    .font-bold{
+      font-weight: bold;
+    }
+   
+    /* Attribute list ------------------------------ */
+    
+    .attributes {
+      margin: 0 0 10px;
+    }
+    
+    .attributes_content {
+      /*background-color: #F4F4F7;*/
+      /*padding: 4px;*/
+    }
+
+    .attributes_content p{
+      margin:0px;
+      line-height: 1;
+    }
+    
+    .attributes_item {
+      padding: 0;
+    }
+
+    .rept-title{
+      font-size:20px;
+      font-weight: bold;
+    }
+
+    .rept-header-details{
+      font-size:12px;
+    }
+
+    
+    /* Data table ------------------------------ */
+
+    .header-title{
+      font-weight:bold;
+      font-size:1rem;
+      /*padding-bottom:5px;*/
+    }
+
+    .header-details{
+      font-size:.75rem;
+    }
+
+    .subheader-table{
+      font-size:12px;
+      margin:0px;
+      font-weight:bold;
+    }
+
+    .subheader-sub-table{
+      font-size:12px;
+      margin:0px;
+      margin-left:20px;
+      font-weight:bold;
+    }
+    
+    .purchase {
+      width: 100%;
+      margin: 0;
+      padding: 10px 5px 35px 5px ;
+      -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
+    }
+    
+    .purchase_content {
+      width: 100%;
+      margin: 0;
+      padding: 25px 0 0 0;
+      -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
+    }
+    
+    .purchase_item {
+      padding: 3px;
+      color: #51545E;
+      font-size: 12px;
+      line-height: 12px;
+      border: 1px solid #EAEAEC;
+      border-bottom: 0px;
+      border-right: 0px;
+    }
+
+    .rtable tr:last-child td.purchase_item{
+      border-bottom: 1px solid #EAEAEC;
+    }
+
+    .rtable tr td.purchase_item:last-child{
+      border-right: 1px solid #EAEAEC;
+    }
+    
+    .purchase_heading {
+      padding: 3px;
+      border-bottom: 1px solid #EAEAEC;
+    }
+    
+    .purchase_heading p {
+      margin: 0;
+      color: #85878E;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+    .purchase_footer {
+      padding: 3px;
+      border-top: 1px solid #EAEAEC;
+    }
+    
+    .purchase_total {
+      margin: 0;
+      text-align: right;
+      font-weight: bold;
+      color: #333333;
+    }
+    
+    .purchase_total--label {
+      padding: 0 15px 0 0;
+    }
+
+    .total-footer td {
+      padding:3px;
+    }
+
+
+    body {
+      background-color: #F4F4F7;
+      color: #51545E;
+    }
+    
+    p {
+      color: #51545E;
+    }
+    
+    p.sub {
+      color: #6B6E76;
+    }
+    
+    .email-wrapper {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      /* -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0; */
+      background-color: #F4F4F7;
+      border:0px!important;
+    }
+    
+    .email-content {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border:0px!important;
+      /* -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0; */
+    }
+   
+    /* Body ------------------------------ */
+    
+    .email-body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border:0px!important;
+      /* -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0; */
+      background-color: #FFFFFF;
+    }
+    
+    .email-body_inner {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      /* -premailer-width: 100%;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0; */
+      background-color: #FFFFFF;
+      border:0px!important;
+    }
+    
+    .content-cell {
+      padding: 10px;
+    }
+    
+    </style>
+    
+  </head>
+  <body>
+    
+    <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+      <tr>
+        <td align="center">
+          <table class="email-content" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+            
+            
+            <tr>
+              <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
+                <table class="email-body_inner" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                  <!-- Body content -->
+                  <tr>
+                    <td class="content-cell">
+                      <div>
+
+                        <table class="attributes" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                          <tr>
+                            <td class="attributes_content">
+                              <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                  <td class="attributes_item">
+                                    <p class="header-title">{{ meta.company_name }}</p>
+                                    <p class="header-details">{{ meta.address }}</p>
+                                    <p class="header-details">{{ meta.contact }}</p>
+                                  </td>
+                                  <td class="attributes_item align-right">
+                                    <p class="header-title">{{ meta.title }}</p>
+                                    <p class="header-details">Generated Date : {{ meta.generation_date }}</p>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+
+
+                         <table class="attributes" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                              <tr>
+                                <!-- <th class="purchase_heading align-left" width="100">Supplier</th> -->
+                                <th class="purchase_heading align-left" width="150">PO No.</th>
+                                <th class="purchase_heading align-left" width="120">Date</th>
+                                <th class="purchase_heading align-left" width="120">Status</th>
+                              </tr>
+                          </table>
+
+
+                        {{#each datas as |item itemkey| }}
+
+                           <p class="subheader-table">{{ item.supplier }}</p>
+                           <!-- loop here -->
+
+                           <table class="attributes rtable" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+
+                          
+                            {{#each item.items as |column colkey| }}
+                              <tr>
+                                <td class="purchase_item" width="150"><span class="">{{column.po_number}}</span></td>
+                                <td class="purchase_item" width="120"><span class="">{{column.po_date}}</span></td>
+                                <td class="purchase_item" width="120"><span class="">{{column.status}}</span></td>
+                              </tr>
+                            {{/each}}
+
+                            
+
+                            
+                          </table>
+
+                        {{/each}}
+                        
+                        
+
+                        
+                        
+                        
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

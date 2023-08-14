@@ -1,0 +1,98 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Set your colors
+$primary: #ffc30a;
+$primary-invert: findColorInvert($primary);
+
+$header: #3c3c3c;
+$header-invert: findColorInvert($header);
+
+$pageheader: #fbfbfb;
+$pageheader-invert: findColorInvert($pageheader);
+
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+	'white': (
+		$white,
+		$black,
+	),
+	'black': (
+		$black,
+		$white,
+	),
+	'light': (
+		$light,
+		$light-invert,
+	),
+	'dark': (
+		$dark,
+		$dark-invert,
+	),
+	'primary': (
+		$primary,
+		$primary-invert,
+	),
+	'info': (
+		$info,
+		$info-invert,
+	),
+	'success': (
+		$success,
+		$success-invert,
+	),
+	'warning': (
+		$warning,
+		$warning-invert,
+	),
+	'danger': (
+		$danger,
+		$danger-invert,
+	),
+	'twitter': (
+		$twitter,
+		$twitter-invert,
+	),
+	'header': (
+		$header,
+		$header-invert,
+	),
+	'pageheader': (
+		$pageheader,
+		$pageheader-invert,
+	),
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+$sidebar-width: 300px;
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+// added to modify the vue-select styling
+@import 'vue-select/src/scss/global/_variables.scss';
+
+$vs-border-radius: 2px;
+$vs-border-color: #dbdbdb;
+
+$vs-component-line-height: 1.5;
+
+$vs-controls-size: 0.7;
+$vs-dropdown-max-height: 150px;
+
+$vs-state-active-bg: $primary;
+$vs-state-active-color: #fff;
+
+$vs-state-disabled-bg: #f5f5f5;
+
+
+
+@import 'vue-select/src/scss/vue-select.scss';

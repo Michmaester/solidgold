@@ -1,0 +1,386 @@
+html {
+	overflow-y: hidden;
+}
+
+.mecs-logo {
+	width: 300px;
+	height: 100px;
+}
+
+.auth-body {
+	background-color: #fafafa;
+	background-image: url('../images/solidgold-bg.jpg');
+	background-size: cover;
+}
+
+.full-modal .modal-background {
+	background-color: #ffffff;
+}
+
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-to {
+	opacity: 0;
+}
+
+.header-wrapper {
+	/* background-color : #3c3c3c; */
+	height: 50px;
+}
+
+.sidebar-wrapper {
+	background-color: #fafafa;
+	/* height: calc(100vh - 50px); */
+	/* overflow-y: auto; */
+}
+
+.maincontent-wrapper {
+	background-color: #fff;
+	/* height: calc(100vh - 50px); */
+	overflow-y: auto;
+}
+
+.is-small.select select {
+	border-radius: 2px !important;
+	font-size: 0.75rem;
+}
+
+.rlist {
+	overflow-x: hidden;
+}
+
+.rlist > .v-rbtn > label.button {
+	border-radius: 0px;
+	border-top: 0px;
+	white-space: normal;
+	/* height:100px!important; */
+	/* padding:15px 5px; */
+	text-align: left !important;
+	height: auto;
+	justify-content: start;
+}
+
+.rlist > .h-rbtn > label.button {
+	border-radius: 0px;
+	height: auto;
+	text-align: left !important;
+	/* border-radius : 0px;
+  border-top : 0px;
+  white-space: normal;
+  text-align:left!important;
+  height:auto;
+  justify-content: start; */
+}
+
+/* .rlist .button .custom-content{
+  color:#ff2266;
+} */
+
+/* .rlist > label.button{
+  height:100px!important;
+  text-align:left;
+} */
+
+/* scrolling testing */
+
+/* .simplebar-track {
+    right: -15px!important;
+}
+
+.maincontent-wrapper .simplebar-track{
+    right: -10px!important;
+} */
+
+.level:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+.tabs.is-boxed a {
+	border-radius: 0px;
+}
+
+.b-tabs .tab-content {
+	padding: 5px;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+}
+
+.tabs.is-toggle li:first-child a {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.tabs.is-toggle li:last-child a {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.form-sidebar .sidebar-content {
+	width: 500px;
+}
+
+.label:not(:last-child) {
+	margin-bottom: 0.25em;
+}
+
+/* tables */
+
+.is-so-submitted {
+	background-color: #dadada7a !important;
+	cursor: not-allowed;
+	user-select: none; /* Standard */
+}
+
+/* commented because of conflict on numberinput component in sales return.. need check again */
+/* .table .button{
+  height:auto;
+  padding-top:1px;
+  padding-bottom:1px;
+} */
+
+.cell-valign-middle {
+	vertical-align: middle !important;
+}
+
+.no-mb-labels {
+	margin-bottom: 0px !important;
+}
+
+.no-pads-cell {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	vertical-align: middle !important;
+}
+
+.modal-card-head {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.modal-card-foot {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.table .dropdown-content {
+	color: #4855bc;
+}
+
+.dropdown-content {
+	border-radius: 2px;
+}
+
+/* Spinner with Overlay */
+.overlay {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	/* background: #ffffffd6; */
+	display: block;
+	z-index: 9999;
+}
+
+.ov-show {
+	display: block;
+}
+
+.overlay__inner {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.overlay__content {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.spinner {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	border-width: 2px;
+	border-color: #4855bc;
+	border-top-color: #fff;
+	animation: spin 1s infinite linear;
+	border-radius: 100%;
+	border-style: solid;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Vue Notifications --> temporary solution */
+
+.vue-notification-group {
+	display: block;
+	position: fixed;
+	z-index: 5000;
+}
+
+.vue-notification-wrapper {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.notification-title {
+	font-weight: 600;
+}
+
+.vue-notification-template {
+	display: block;
+	box-sizing: border-box;
+	background: white;
+	text-align: left;
+}
+
+.vue-notification {
+	display: block;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0 5px 5px;
+
+	color: white;
+	background: #44a4fc;
+	border-left: 5px solid #187fe7;
+}
+
+.vue-notification.warn {
+	background: #ffb648;
+	border-left-color: #f48a06;
+}
+
+.vue-notification.error {
+	background: #e54d42;
+	border-left-color: #b82e24;
+}
+
+.vue-notification.success {
+	background: #68cd86;
+	border-left-color: #42a85f;
+}
+
+.vn-fade-enter-active,
+.vn-fade-leave-active,
+.vn-fade-move {
+	transition: all 0.5s;
+}
+
+.vn-fade-enter,
+.vn-fade-leave-to {
+	opacity: 0;
+}
+
+#login-bg {
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.v-select {
+	background-color: #fff;
+}
+
+
+/* .vs__selected-options {
+	flex-wrap: nowrap;
+	max-width: calc(100% - 41px);
+  }
+  
+  .vs__selected {
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 100%;
+	overflow: hidden;
+  }
+  
+  .vs__search {
+	position: absolute;
+  }
+  
+  .vs--open .vs__search {
+	position: static;
+  }
+  
+  .vs__dropdown-option {
+	white-space: normal;
+  } */
+
+
+
+
+
+
+  @-webkit-keyframes blinker {
+	from {opacity: 1.0;}
+	to {opacity: 0.0;}
+  }
+  .blink{
+	  text-decoration: blink;
+	  -webkit-animation-name: blinker;
+	  -webkit-animation-duration: 0.5s;
+	  -webkit-animation-iteration-count:infinite;
+	  -webkit-animation-timing-function:ease-in-out;
+	  -webkit-animation-direction: alternate;
+  }
+
+
+
+
+	/* Quick Print styles */
+
+	.printing-table{
+		font-size:12px!important;
+	}
+
+  	.printing-table thead th{
+		padding:5px;
+	}
+
+	.printing-table tbody td, .printing-table tfoot td{
+		padding:5px;
+		/* border:1px !important; */
+		line-height: normal;
+	}
+
+	.printing-table thead th, .printing-table tfoot td{
+		/* border:1px !important; */
+	}
+
+
+
+
+	.validation-error{
+		color:#ff2266;
+		font-size:12px;
+	}
